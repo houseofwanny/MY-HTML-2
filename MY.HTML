@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="./writing.css">
         <title>MY FIRST HTML</title>
         <meta charset="UTF-8">
     </head>
     <body>
+        <div class="parent">
         <nav class="myNav">
             <ul>
                 <li> <a href="#Home"> Home</a></li>
                 <li> <a href="#About"> About</a></li>
                 <li> <a href="#contact"> Contact</a></li>
             </ul>
-        </nav>   
-        <div>
+            
+        </nav> 
+        <br><br><br><br><br> 
+        <div class=" myimg ">
             <h1>HOUSE OF WANNY</h1>
-            <img src="./IMG_4074.JPG"alt="IMG_4074.JPG" width="300px" >
+
+            <img src="./IMG_4074.JPG"alt="IMG_4074.JPG">
+<hr>
             <h2>WELCOME TO HOUSE OF WANNY</h2>
-            <h3>our services</h3>
+            
+            
+                        <p style="color:chocolate ; background-color: white; text-align: center; line-height: 50px; border-radius: 10px; width:90%; margin-left: auto; margin-right: auto;" > My name is Toluwani, a Makeup Artist and Gele pro There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc</p>
+                        <hr>
+            <h2>Our Services</h2>
             <div>
-                
-                    
-                    <ul>
+                <ul>
                         <li>Bridal Makeup</li>
                         <li>Traditional Wedding</li>
                         <li>Birthdat photoshot</li>
@@ -29,34 +37,49 @@
                         <li>Gele Styling ....etc</li>
                 
                     </ul>
+                    <hr>
                 
-                <p>To watch the beginners class, Go to <a href="https://youtu.be/mmE1f7C9ynk">www.houseofwanny.com</a></p>
+                <p>To watch the beginners class, Go to</p>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/mmE1f7C9ynk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <div>
+                    <hr>
                     <p>To register for the physical class, fill the form below;</p>
                 </div>
             </div>
         </div>
 
 
-        <div>
+        <div id="contact">
             <form>
-                <label for="rr">name</label>
+                <label for="rr">Name:</label> <br>
                 <input type="text" name="rr" placeholder="enter your name">
                 <br><br>
-                <label for="number">Number</label>
+                <label for="number">Number:</label><br>
                 <input type="number" name="number" placeholder="enter your number" >
                 <br><br>
-                <label for="Male">male</label>
-                <input type="radio" name="a" value="Male">
+                <label for="age">Age:</label><br>
+                <input type="number" name="Age" placeholder="your age">
                 <br><br>
-                <label for="Female">Female</label>
-                <input type="radio" name="a" value="Female">
-                <br><br>
-                <label for="Other">Others</label>
-                <input type="radio" name="a" value="Other">
-            </form>
                 
+            </form>
+             
         </div>
+        <hr>
+        <div class="id">
+            <br><br>
+            <form>
+            <label for="Male">Male</label>
+            <input type="radio" name="a" value="Male">
+            
+            <label for="Female">Female</label>
+            <input type="radio" name="a" value="Female">
+            
+            <label for="Other">Others</label>
+            <input type="radio" name="a" value="Other">
+        </form>
+            </div>
+    </div>    
     </body>
     
 </html>
